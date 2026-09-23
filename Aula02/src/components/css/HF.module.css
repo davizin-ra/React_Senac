@@ -1,0 +1,12 @@
+header {
+  width: 100%;
+  height: 100px;
+  background: lime;
+  border-bottom: 7px solid rgb(177, 75, 75);
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background: black;
+}

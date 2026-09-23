@@ -1,0 +1,9 @@
+.bloco{
+    border-bottom: 7px solid rgb(177, 75, 75);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
