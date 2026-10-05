@@ -1,0 +1,16 @@
+.section{
+    width: 100%;
+    height: 450px;
+    padding: 30px 40px 50px 40px;
+    display: flex;
+    gap: 30px;
+    border-top: 20px solid #A65; 
+    border-bottom: 20px solid #A65; 
+}
+
+.section div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
