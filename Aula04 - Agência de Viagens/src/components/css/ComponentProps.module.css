@@ -1,0 +1,76 @@
+/* Cartão com o texto e os destaques de cada lugar. */
+.corpo_texto {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  padding: 26px 28px;
+  border: 1px solid rgba(28, 48, 54, 0.1);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.96);
+  color: #203137;
+  text-align: left;
+  box-shadow: 0 12px 36px rgba(13, 27, 31, 0.16);
+}
+
+.etiqueta {
+  margin: 0 58px 8px 0;
+  color: #587077;
+  font: 700 0.75rem/1.3 Arial, sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.corpo_texto h2 {
+  margin: 0 58px 14px 0;
+  color: #17333a;
+  font-size: clamp(1.45rem, 2vw, 1.9rem);
+  line-height: 1.2;
+}
+
+.descricao {
+  margin: 0;
+  color: #43575d;
+  font: 1rem/1.7 Arial, sans-serif;
+}
+
+/* A lista vira pequenas etiquetas para bater o olho nos pontos principais. */
+.destaques {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.destaques li {
+  padding: 7px 11px;
+  border-radius: 999px;
+  background: #edf3f1;
+  color: #24474b;
+  font: 0.85rem/1.3 Arial, sans-serif;
+}
+
+/* A bandeira fica no canto do cartão sem empurrar o texto. */
+.img_props {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 42px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Reduz espaços no cartão quando a tela é pequena. */
+@media (max-width: 520px) {
+  .corpo_texto {
+    padding: 22px;
+  }
+
+  .img_props {
+    top: 20px;
+    right: 20px;
+  }
+}

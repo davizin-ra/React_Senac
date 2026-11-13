@@ -1,0 +1,15 @@
+/* Moldura geral do site: limita a largura e mantém o rodapé no fim da tela. */
+.appShell {
+  display: flex;
+  flex-direction: column;
+  width: min(100%, 1280px);
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #f5f5f5;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
+}
+
+.appShell > main {
+  /* Faz o conteúdo ocupar o espaço livre entre o cabeçalho e o rodapé. */
+  flex: 1;
+}

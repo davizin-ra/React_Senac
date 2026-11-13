@@ -1,0 +1,20 @@
+/* Essas regras valem para o site todo. O border-box facilita calcular tamanhos. */
+* {
+  box-sizing: border-box;
+}
+
+/* Tira as margens padrão do navegador e deixa o app ocupar a altura da tela. */
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  /* Evita que o layout fique espremido em telas muito estreitas. */
+  min-width: 320px;
+  background: #edf1ee;
+  color: #203137;
+  font-family: Arial, Helvetica, sans-serif;
+}

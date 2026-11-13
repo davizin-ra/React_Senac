@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#fff"/>
+  <path d="M0 0h900v46.15H0zm0 92.3h900v46.15H0zm0 92.3h900v46.15H0zm0 92.3h900v46.15H0zm0 92.3h900v46.15H0zm0 92.3h900v46.15H0zm0 92.3h900V600H0z" fill="#b22234"/>
+  <rect width="360" height="323.05" fill="#3c3b6e"/>
+  <g fill="#fff">
+    <path id="star" d="m0-12 2.8 8.6h9l-7.3 5.3 2.8 8.6L0 5.2l-7.3 5.3 2.8-8.6-7.3-5.3h9z"/>
+  </g>
+  <g fill="#fff">
+    <use href="#star" x="30" y="20"/><use href="#star" x="90" y="20"/><use href="#star" x="150" y="20"/><use href="#star" x="210" y="20"/><use href="#star" x="270" y="20"/><use href="#star" x="330" y="20"/>
+    <use href="#star" x="60" y="55"/><use href="#star" x="120" y="55"/><use href="#star" x="180" y="55"/><use href="#star" x="240" y="55"/><use href="#star" x="300" y="55"/>
+    <use href="#star" x="30" y="90"/><use href="#star" x="90" y="90"/><use href="#star" x="150" y="90"/><use href="#star" x="210" y="90"/><use href="#star" x="270" y="90"/><use href="#star" x="330" y="90"/>
+    <use href="#star" x="60" y="125"/><use href="#star" x="120" y="125"/><use href="#star" x="180" y="125"/><use href="#star" x="240" y="125"/><use href="#star" x="300" y="125"/>
+    <use href="#star" x="30" y="160"/><use href="#star" x="90" y="160"/><use href="#star" x="150" y="160"/><use href="#star" x="210" y="160"/><use href="#star" x="270" y="160"/><use href="#star" x="330" y="160"/>
+    <use href="#star" x="60" y="195"/><use href="#star" x="120" y="195"/><use href="#star" x="180" y="195"/><use href="#star" x="240" y="195"/><use href="#star" x="300" y="195"/>
+    <use href="#star" x="30" y="230"/><use href="#star" x="90" y="230"/><use href="#star" x="150" y="230"/><use href="#star" x="210" y="230"/><use href="#star" x="270" y="230"/><use href="#star" x="330" y="230"/>
+    <use href="#star" x="60" y="265"/><use href="#star" x="120" y="265"/><use href="#star" x="180" y="265"/><use href="#star" x="240" y="265"/><use href="#star" x="300" y="265"/>
+    <use href="#star" x="30" y="300"/><use href="#star" x="90" y="300"/><use href="#star" x="150" y="300"/><use href="#star" x="210" y="300"/><use href="#star" x="270" y="300"/><use href="#star" x="330" y="300"/>
+  </g>
+</svg>

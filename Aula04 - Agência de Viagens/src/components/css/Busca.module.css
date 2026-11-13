@@ -1,0 +1,61 @@
+/* A largura do campo acompanha o espaço disponível no cabeçalho. */
+.formulario {
+  position: relative;
+  flex: 0 1 285px;
+  width: 285px;
+  max-width: 100%;
+  margin: 0;
+}
+
+/* Fundo e borda dão aparência de busca; a lupa é só decorativa. */
+.buscaWrap {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #d2dfd9;
+  border-radius: 999px;
+  background: #f1f6f3;
+}
+
+/* Campo para digitar: não tem formulário nem ação ligada a ele. */
+.busca {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  height: 38px;
+  margin: 0;
+  border: 0;
+  border-radius: 999px;
+  padding: 0 10px;
+  background-color: transparent;
+  color: #203137;
+  font: 16px Arial, sans-serif;
+}
+
+.busca::placeholder {
+  color: #66787c;
+}
+
+.icone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 30px;
+  width: 30px;
+  height: 38px;
+  padding: 6px;
+}
+
+.lupa {
+  display: block;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.busca:focus-visible {
+  outline: 2px solid #176b60;
+  outline-offset: 2px;
+}

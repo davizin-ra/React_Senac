@@ -1,0 +1,53 @@
+/* Rodapé escuro com atalhos para os destinos e uma observação de reserva. */
+.footer {
+  padding: 28px 20px 22px;
+  background: #17333a;
+  color: #fff;
+}
+
+/* Centraliza o conteúdo e mantém os links organizados em várias larguras. */
+.conteudo {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  width: min(100%, 1000px);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.titulo {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.destinos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+
+.destinos a {
+  color: #e3eeea;
+  font: 0.92rem Arial, sans-serif;
+  text-decoration: none;
+}
+
+.destinos a:hover,
+.destinos a:focus-visible {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.destinos a:focus-visible {
+  outline: 2px solid #b6d9ca;
+  outline-offset: 4px;
+}
+
+.nota {
+  margin: 0;
+  color: #c6d4d1;
+  font: 0.85rem/1.5 Arial, sans-serif;
+}
